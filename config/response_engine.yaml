@@ -1,0 +1,28 @@
+# Response Engine Configuration - NIDS Project
+
+# Enable/disable automatic response actions
+enabled: true
+
+# Alert threshold - number of alerts from same source before blocking
+alert_threshold: 5
+
+# Time window for counting alerts (in seconds)
+time_window: 300
+
+# Firewall action (DROP or REJECT)
+block_action: DROP
+
+# IP Whitelist - IPs that will never be blocked
+whitelist:
+  - 127.0.0.1          # Localhost IPv4
+  - ::1                # Localhost IPv6
+  - 192.168.1.1        # Example: Gateway/Router
+  - 192.168.1.100      # Example: Management station
+
+# Response logging
+log_file: /var/log/response_engine.log
+
+# Auto-unblock configuration
+auto_unblock:
+  enabled: false
+  block_duration: 3600
