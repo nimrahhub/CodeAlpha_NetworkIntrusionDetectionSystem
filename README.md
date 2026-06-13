@@ -109,14 +109,6 @@ sudo iptables -A INPUT -s <attacker-ip> -j DROP
 
 ---
 
-## 📸 Screenshots (Add Yours Here)
-
-* Dashboard UI
-* Suricata alerts in terminal
-* Active IP blocking response
-
----
-
 ## 🎥 Video Demo
 
 👉 LinkedIn Video Explanation:
@@ -162,5 +154,7 @@ This project was completed as part of the **CodeAlpha Internship Program**.
 ## 📌 Repository Info
 
 **Project Name:** CodeAlpha_NetworkIntrusionDetectionSystem
+
 **Category:** Cybersecurity / Network Security
+
 **Status:** Completed ✔
