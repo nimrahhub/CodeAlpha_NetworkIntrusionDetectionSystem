@@ -1,0 +1,15 @@
+- dash
+- plotly
+
+🚀 HOW TO RUN 
+1. Start Suricata
+sudo suricata -i eth0 -c /etc/suricata/suricata.yaml
+2. Run Dashboard
+python3 suricata_dash.py
+3. Run Response Engine
+sudo python3 response_engine.py
+
+✔ IDS detection (Suricata)
+✔ Real-time dashboard (Dash + Plotly)
+✔ Automatic response system (iptables blocking)
+✔ Logs-based analysis (eve.json)
